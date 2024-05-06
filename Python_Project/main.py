@@ -77,7 +77,7 @@ def main():
 
     selected_box = st.sidebar.selectbox(
     'Choose one of the following',
-    ('Welcome','Intensity Transformation','Histogram Equalization','Smoothing Filters','Sharpening Filters','Edge Detection Filters','Frequency Domain Filters','Morphological Operations'))
+    ('Welcome','Intensity Transformation','Histogram Equalization','Smoothing Filters','Sharpening Filters','Edge Detection Filters','Morphological Operations'))
 
     if selected_box=='Welcome':
         welcome()
